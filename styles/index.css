@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 100%;
+    background-color: rgba(0, 255, 255, 0.301);
+    
+}
+
+
+html{
+    width: 100%;
+}
+
+.index{
+    display: flex;
+    gap: 10px;
+    min-height: 50vh;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+padding-top: 5%;
+}
+.index .box1{
+    padding: 0.5rem 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: clamp(2rem, -0.875rem + 3.5vw, 1.5rem);
+    margin-bottom: 5rem;
+    font-family:cursive;
+
+    grid-area: a;
+    cursor: pointer;
+} 
+
+.index .box2{
+    grid-area: b;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: small;
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    /*----------*/
+    width: fit-content;
+    padding: 1rem 3rem;
+    height: auto;
+    width: fit-content;
+    width: 50%;
+    cursor: pointer;
+
+
+
+
+} 
+.index * a{
+    font-size: xx-large;
+    color: black;
+}
+
+.index .box3{
+    grid-area: c;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: small;
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    /*----------*/
+    width: 50%;
+    padding: 0.2rem 0.3rem;
+
+     padding: 1rem 3rem;
+     cursor: pointer;
+
+
+
+} 
+
+.index .box2:hover{
+    background-color: aquamarine;
+}
+
+.index .box3:hover{
+    background-color: aquamarine;
+}
+
+
+.index *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+
+} 
+
+.form-login .username{
+   width: 15rem;
+   min-height: 2rem;
+   margin:1rem auto;
+   border-radius: 10px;
+   outline: none;
+   padding-left: 10px;
+   
+}
+.form-login .password{
+    width: 15rem;
+    min-height: 2rem;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 1rem;
+
+ }
+
+ .login-btn{
+    background-color:rgb(0, 255, 255) ;
+    font-size: x-large;
+    border-radius: 10px;
+ }
+ .login-btn:hover{
+    background-color:rgba(0, 255, 255, 0.267) ;
+    
+ }
+
+.register{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.register p {
+width:22vw;
+}
+
+.register a {
+width: fit-content;
+}
+
+.container{
+    width: 100vw;
+}
+
+.nav{
+    background-color: rgb(49, 196, 241);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.nav  span{
+   margin-right: 1rem;
+    padding: 0.5rem 0px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.nav .btn-cnt button{
+    background-color: rgba(110, 220, 235, 0.973);
+    height: fit-content;
+    padding: 0.4rem 0.4rem;
+    border-radius: 50%;
+    font-weight:700;
+    margin: 0 10px;
+
+}
+.nav button:hover{
+    background-color: rgb(168, 218, 247);
+}
+
+
+.table-container{
+    max-width: 100vw;
+    padding: 1rem 10px;
+    max-height: 20vh;
+    
+}
+
+.table-container .table1{
+    border: 1px solid black;
+    width: 100%;
+    
+
+}
+.table-container th{
+    font-size: 4vw;
+    text-align: center;
+    border: 1px solid black;
+
+}
+.table-container td{
+    font-size: 4vw;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.table-container tr{
+    border: 1px solid black;
+}
+
+
+.dlt-btn{
+    border-radius: 2px;
+    font-size: x-small;
+    padding: 1px 2px;
+    background-color: rgba(220, 20, 60, 0.5);
+    color: white;
+    font-weight: 700;
+
+}
+
+
+
+
+.add{
+    background-color: rgba(137, 43, 226, 0.137);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem auto;
+    min-height: 20vh;
+
+    
+
+
+}
+
+.add-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.add .title1{
+    padding-top: 1rem;
+    font-size: larger;
+
+}
+.add .monspan{
+    
+    font-size: large;
+    margin: 5%;
+
+}
+.equipe-span{
+    font-size: large;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    min-width: 30vw;
+
+}
+
+.add .montant{
+    width: 50%;
+   min-height: 1.5rem;
+   margin:1rem auto;
+   border-radius: 2px;
+   outline: none;
+   padding-left: 10px;
+   font-size: medium;
+   outline: none;
+   border: 1px solid rgba(137, 43, 226, 0.137);
+}
+
+
+
+
+.equipe-cont{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.equipe-input-cont{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30%;
+}
+
+
+
+.hello {
+    min-width:40vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 1vh;
+
+
+}
+
+.submitbtn{
+    background-color:rgba(110, 221, 235, 0.63) ;
+    
+    border-radius: 5px;
+    margin-bottom: 1vh;
+    min-width: 30vw;
+    padding: 1vh ;
+}
+
+ .login-btn:hover{
+    background-color:rgba(0, 255, 255, 0.267) ;
+    
+ }
+
+
+ .result-container{
+    background-color: rgba(242, 249, 250, 0.884);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem auto;
+    min-height: 20vh;
+ }
+
+
+ .result-title{
+    padding-top: 1rem;
+    font-size: larger;
+ }
+
+
+ .result-table{
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 2vh;
+ }
+
+
+
+ .result-table th{
+    font-size: 4vw;
+    text-align: center;
+    border: 1px solid black;
+
+}
+.result-table td{
+    font-size: 4vw;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.result-table tr{
+    border: 1px solid black;
+}
+
+
+
+.moyen-total{
+    font-weight: 900;
+    font-size: large;
+    
+}
